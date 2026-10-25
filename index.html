@@ -230,6 +230,7 @@ fieldset.q.wrong .feedback strong { color: var(--crit); }
       </div>
       <div class="progress"><div class="bar" aria-hidden="true"><span id="bar"></span></div><span><strong id="done-count">0</strong> of <strong id="total-count">0</strong> steps done</span></div>
       <button type="button" class="btn ghost" id="reset-progress">Clear ticks</button>
+      <a class="btn" href="https://vervanttechlab.github.io/result/" target="_blank" rel="noopener">See the finished website</a>
     </div>
   </div>
 </header>
@@ -249,7 +250,7 @@ fieldset.q.wrong .feedback strong { color: var(--crit); }
   <div class="phase-head">
     <span class="eyebrow">Phase A · about 10 minutes</span>
     <h2>Run the finished project first</h2>
-    <p>See what you are building before you build it. The finished, tested project is in <code>study/practice/barako-brew/</code>.</p>
+    <p>See what you are building before you build it. The finished, tested project is in <code>study/practice/barako-brew/</code>, and it is live at <a href="https://vervanttechlab.github.io/result/" target="_blank" rel="noopener">vervanttechlab.github.io/result</a> (source: <a href="https://github.com/vervanttechlab/result" target="_blank" rel="noopener">github.com/vervanttechlab/result</a>). On the live site the menu loads from <code>data/menu.json</code>, because GitHub Pages can't run json-server; sending an order or a message only works locally.</p>
   </div>
 
   <article class="step" id="a1" data-title="Install the two tools you need to run it">
@@ -2704,6 +2705,7 @@ git push --tags
 git push
 git log --oneline --graph</code></pre></div>
     <div class="check"><strong>Check:</strong> <code>git log</code> shows one commit per step. That history is your evidence for schedule monitoring and version control.</div>
+    <p><strong>Final result:</strong> compare your page with the finished website at <a href="https://vervanttechlab.github.io/result/" target="_blank" rel="noopener">vervanttechlab.github.io/result</a>. Check the layout at 375, 768 and 1280 px, the menu, search, cart totals, Budget picks, and the checkout modal.</p>
   </article>
 </section>
 
